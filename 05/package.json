@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "jest": "^29.4.1"
+  },
+  "name": "session-five",
+  "version": "1.0.0",
+  "main": "session-five-solved.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
