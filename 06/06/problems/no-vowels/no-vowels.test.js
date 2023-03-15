@@ -1,4 +1,4 @@
-const noVowels = require("../..solutions/no-vowels");
+const noVowels = require("./no-vowels");
 
 describe('noVowels', () => {
   it('replaces all vowels in the input string with "x"', () => {

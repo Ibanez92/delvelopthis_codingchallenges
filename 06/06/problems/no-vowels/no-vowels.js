@@ -1,5 +1,14 @@
 const noVowels = (string) => {
-  // Your code here
+  const vowels = ['a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y']
+  let newString = '';
+  for (let i = 0; i < string.length; i++){
+    if(!vowels.includes(string[i])){
+      newString += string[i]
+    } else {
+      newString += 'x'
+    }
+  }
+  return newString
 };
-console.log("test");
+console.log(noVowels("Hello world!"));
 module.exports = noVowels;
