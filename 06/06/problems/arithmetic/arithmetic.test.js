@@ -1,4 +1,4 @@
-const arithmetic = require("../../solutions/arithmetic");
+const arithmetic = require("./arithmetic");
 describe('arithmetic', () => {
     test('returns the correct results for valid inputs', () => {
       expect(arithmetic(20, 4)).toEqual({ sum: 24, difference: 16, product: 80, quotient: 5 });
