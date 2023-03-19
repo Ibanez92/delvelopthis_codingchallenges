@@ -1,5 +1,4 @@
 const arithmetic = (num1, num2) => {
-    // Your code here
    const sum = num1 + num2;
    const difference = num1 - num2;
    const product = num1 * num2;
