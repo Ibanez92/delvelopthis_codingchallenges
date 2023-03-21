@@ -1,14 +1,13 @@
-function calculateAge(birthdayString) {
-
+function calculateAge(birthdayString) { 
     // Create a new Date object for the birthdate
     const birthDate = new Date(birthdayString);
     console.log(birthDate);
-    
+
     // Check if the birthdate is valid
     if (isNaN(birthDate.getTime())) {
         throw new Error("Invalid date string");
     }
-    
+
     // Create a new Date object for today's date
     const today = new Date()
 
