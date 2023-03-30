@@ -1,4 +1,6 @@
 function decrypt(cipher, key) {
+
+    // created decrypted variable to hold my decrypted string
     let decrypted = ""
 
     for (let i = 0; i < cipher.length; i++) {
