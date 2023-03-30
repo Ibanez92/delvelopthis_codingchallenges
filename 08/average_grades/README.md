@@ -57,4 +57,4 @@ averageGrades([
 ```
 
 ## Testing
-Open your terminal and use the command `npm test -- flatten_array.test.js` to run the necessary tests.
+Open your terminal and use the command `npm test -- average_grades.test.js` to run the necessary tests.
