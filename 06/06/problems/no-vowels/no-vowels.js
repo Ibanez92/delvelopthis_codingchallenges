@@ -1,4 +1,5 @@
 const noVowels = (string) => {
+    // created vowel array with uppercase and lowercase vowels
     const vowels = [
         'a',
         'e',
