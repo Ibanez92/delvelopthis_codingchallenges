@@ -1,4 +1,4 @@
-function averageGrades(grades) { // const scoreMap = new Map()
+function averageGrades(grades) { 
     const scoreMap = {};
 
     for (let i = 0; i < grades.length; i++) {
@@ -9,7 +9,6 @@ function averageGrades(grades) { // const scoreMap = new Map()
             scoreMap[thisGrade.name] = [thisGrade.grade]
         }
     }
-    // console.log(scoreMap);
     for (const name in scoreMap) {
         const grades = scoreMap[name];
         const average = grades.reduce((a, b) => a + b) / grades.length;
