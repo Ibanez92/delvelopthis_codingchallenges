@@ -1,35 +1,48 @@
 const sampleData = require("./sampleData");
 
 function logSquareOfNumbers(arr) {
-  //   your code here
+  arr.forEach((number) => {
+    console.log(number ** 2);
+  })
 }
 
 function capitalizeStrings(arr) {
-  //   your code here
+  const newArr = arr.map((string) => {
+    return string.toUpperCase();
+  });
+   return newArr
 }
 
 function filterAdultObjects(arr) {
-  //   your code here
+  const adults = arr.filter((person) => person.age >= 18);
+  return adults
 }
 
 function getNamesOfYoungPeople(arr) {
-  //   your code here
+  return arr.filter((person) => person.age < 30).map((person) => person.name);
 }
 
 function totalCharacters(arr) {
-  //   your code here
+  return arr.reduce((acc, word) => {
+    return acc + word.length;
+  }, '')
 }
 
 function minMaxNumbers(arr) {
-  //   your code here
+  return arr.reduce((a, b) => { 
+    return Math.min(a[0], b), Math.max(a[1], b)},
+    [Infinity, -Infinity]
+    );
 }
 
 function logBookDetails(arr) {
-  //   your code here
+  arr.forEach((book) => {
+    console.log(`The book ${book.title} is written by ${book.author}.`);
+  })
 }
 
 function sumOfEvenNumbers(arr) {
-  //   your code here
+  return arr.filter((num) => num%2===0).reduce((acc, curr) => acc + curr, 0)
 }
 
 // ============================================================================
