@@ -1,5 +1,13 @@
 //.then().catch()
 function thenCatch(url) {
+  return fetch(url)
+  .then((response)=> response.json())
+  .then((json)=>{
+      return json
+  })
+  .catch((e)=>{
+    console.error(e);
+  });
 
 }
 
