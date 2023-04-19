@@ -8,4 +8,5 @@ const time = date.toLocaleTimeString((undefined, {
 }));
 
 console.log(`Today is : ${dayOfWeek}`)
-console.log(`Current time is : ${time} : ${minSec}`);
+console.log(`Current time is : ${time} : `);
+// ${minSec}
