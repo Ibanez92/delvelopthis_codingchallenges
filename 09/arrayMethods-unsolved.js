@@ -1,5 +1,7 @@
 const sampleData = require("./sampleData");
 
+// using forEach() method
+
 function logSquareOfNumbers(arr) {
   arr.forEach((number) => {
     console.log(number ** 2);
