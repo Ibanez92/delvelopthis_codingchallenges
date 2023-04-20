@@ -1,6 +1,6 @@
 const sampleData = require("./sampleData");
 
-// using forEach() method
+// using forEach() array method
 
 function logSquareOfNumbers(arr) {
   arr.forEach((number) => {
@@ -8,7 +8,7 @@ function logSquareOfNumbers(arr) {
   })
 }
 
-// using map() method
+// using map() array method
 
 function capitalizeStrings(arr) {
   const newArr = arr.map((string) => {
@@ -16,6 +16,8 @@ function capitalizeStrings(arr) {
   });
    return newArr
 }
+
+// using filter() array method
 
 function filterAdultObjects(arr) {
   const adults = arr.filter((person) => person.age >= 18);
