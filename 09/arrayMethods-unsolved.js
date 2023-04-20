@@ -8,6 +8,8 @@ function logSquareOfNumbers(arr) {
   })
 }
 
+// using map() method
+
 function capitalizeStrings(arr) {
   const newArr = arr.map((string) => {
     return string.toUpperCase();
