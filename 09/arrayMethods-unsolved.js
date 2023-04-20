@@ -55,6 +55,8 @@ function logBookDetails(arr) {
   })
 }
 
+// using filter() array method
+
 function sumOfEvenNumbers(arr) {
   return arr.filter((num) => num%2===0).reduce((acc, curr) => acc + curr, 0)
 }
