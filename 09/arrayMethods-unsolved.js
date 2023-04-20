@@ -24,6 +24,8 @@ function filterAdultObjects(arr) {
   return adults
 }
 
+// using filter() array method
+
 function getNamesOfYoungPeople(arr) {
   return arr.filter((person) => person.age < 30).map((person) => person.name);
 }
