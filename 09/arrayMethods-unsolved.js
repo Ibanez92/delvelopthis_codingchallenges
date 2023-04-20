@@ -38,6 +38,8 @@ function totalCharacters(arr) {
   }, '')
 }
 
+// using reduce() array method
+
 function minMaxNumbers(arr) {
   return arr.reduce((a, b) => { 
     return Math.min(a[0], b), Math.max(a[1], b)},
