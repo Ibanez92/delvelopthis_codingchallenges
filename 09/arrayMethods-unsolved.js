@@ -30,6 +30,8 @@ function getNamesOfYoungPeople(arr) {
   return arr.filter((person) => person.age < 30).map((person) => person.name);
 }
 
+// using reduce() array method
+
 function totalCharacters(arr) {
   return arr.reduce((acc, word) => {
     return acc + word.length;
