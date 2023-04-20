@@ -47,6 +47,8 @@ function minMaxNumbers(arr) {
     );
 }
 
+// using forEach() array method
+
 function logBookDetails(arr) {
   arr.forEach((book) => {
     console.log(`The book ${book.title} is written by ${book.author}.`);
