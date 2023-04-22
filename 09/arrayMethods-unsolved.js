@@ -17,7 +17,7 @@ function capitalizeStrings(arr) {
    return newArr
 }
 
-// using filter() array method
+// using filter() array method.
 
 function filterAdultObjects(arr) {
   const adults = arr.filter((person) => person.age >= 18);
