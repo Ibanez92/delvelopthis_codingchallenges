@@ -1,6 +1,7 @@
 const sampleData = require("./sampleData");
 
 // using forEach() array method
+// forEach() array method mutates original array
 
 function logSquareOfNumbers(arr) {
   arr.forEach((number) => {
@@ -48,6 +49,7 @@ function minMaxNumbers(arr) {
 }
 
 // using forEach() array method
+// forEach() array method mutates original array
 
 function logBookDetails(arr) {
   arr.forEach((book) => {
