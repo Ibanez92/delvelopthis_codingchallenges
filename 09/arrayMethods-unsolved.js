@@ -20,13 +20,15 @@ function capitalizeStrings(arr) {
 }
 
 // using filter() array method
-
+// The filter() method creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
 function filterAdultObjects(arr) {
   const adults = arr.filter((person) => person.age >= 18);
   return adults
 }
 
 // using filter() array method
+// The filter() method creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
+
 
 function getNamesOfYoungPeople(arr) {
   return arr.filter((person) => person.age < 30).map((person) => person.name);
@@ -59,6 +61,8 @@ function logBookDetails(arr) {
 }
 
 // using filter() array method
+// The filter() method creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
+
 
 function sumOfEvenNumbers(arr) {
   return arr.filter((num) => num%2===0).reduce((acc, curr) => acc + curr, 0)
