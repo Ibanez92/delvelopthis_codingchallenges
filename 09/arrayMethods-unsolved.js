@@ -21,6 +21,7 @@ function capitalizeStrings(arr) {
 
 // using filter() array method
 // The filter() method creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
+
 function filterAdultObjects(arr) {
   const adults = arr.filter((person) => person.age >= 18);
   return adults
@@ -35,6 +36,7 @@ function getNamesOfYoungPeople(arr) {
 }
 
 // using reduce() array method
+// The reduce() method executes a user-supplied "reducer" callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements of the array is a single value.
 
 function totalCharacters(arr) {
   return arr.reduce((acc, word) => {
@@ -43,6 +45,7 @@ function totalCharacters(arr) {
 }
 
 // using reduce() array method
+// The reduce() method executes a user-supplied "reducer" callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements of the array is a single value.
 
 function minMaxNumbers(arr) {
   return arr.reduce((a, b) => { 
