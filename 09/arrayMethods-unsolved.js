@@ -10,6 +10,7 @@ function logSquareOfNumbers(arr) {
 }
 
 // using map() array method
+// map() array method creates a new array
 
 function capitalizeStrings(arr) {
   const newArr = arr.map((string) => {
@@ -18,7 +19,7 @@ function capitalizeStrings(arr) {
    return newArr
 }
 
-// using filter() array method.
+// using filter() array method
 
 function filterAdultObjects(arr) {
   const adults = arr.filter((person) => person.age >= 18);
